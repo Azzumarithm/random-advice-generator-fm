@@ -26,11 +26,11 @@ const renderAdvice = (adviceObj) => {
     adviceText.textContent = `"${advice}"`
 
     adviceBtn.classList.add("red");
-    adviceBtn.classList.remove("hover")
+    
 
     setTimeout(() => {
         adviceBtn.classList.remove("red");
-        adviceBtn.classList.add("hover")
+        
     }, 2000);
 };
 
