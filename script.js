@@ -31,7 +31,7 @@ const renderAdvice = (adviceObj) => {
     setTimeout(() => {
         adviceBtn.classList.remove("red");
         
-    }, 2000);
+    }, 1200);
 };
 
 
